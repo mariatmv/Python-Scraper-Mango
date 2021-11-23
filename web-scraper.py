@@ -27,6 +27,6 @@ for size in available_sizes:
     data['size'].append(size.attrs['data-size'])
 
 
-with open('product.txt', 'w') as outfile:
+with open('product.json', 'w') as outfile:
     json.dump(data, outfile)
 
